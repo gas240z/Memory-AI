@@ -1,0 +1,17 @@
+# секреты и окружение
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# данные памяти: локальные и могут содержать личные диалоги
+qdrant_data/
+mem0_history.db
+memory_lab_state.json
+memory_lab_state.tmp
+memory_lab_state.bad
+
+# резервные копии и мусор
+_backup/
+.DS_Store
